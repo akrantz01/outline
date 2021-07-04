@@ -100,6 +100,12 @@ export function GoogleWorkspaceInvalidError(
   return httpErrors(400, message, { id: "hd_not_allowed" });
 }
 
+export function Auth0InvalidError(
+  message: string = "Auth0 domain is not allowed"
+) {
+  return httpErrors(400, message, { id: "auth0_not_allowed" });
+}
+
 export function AuthenticationProviderDisabledError(
   message: string = "Authentication method has been disabled by an admin",
   redirectUrl: string = env.URL

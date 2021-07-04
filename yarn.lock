@@ -10112,6 +10112,15 @@ pascalcase@^0.1.1:
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
   integrity sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ=
 
+passport-auth0@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/passport-auth0/-/passport-auth0-1.4.0.tgz#a87b96e6d6650f79e25d95a8762fdb548cb500be"
+  integrity sha512-U5Oe09VUtynA00tvEz5F9zFIAhucpu0OTHwkRnIlFOCZTzQabp3YHinnZlX1pMM0RzceROkO073JAAF86znLQg==
+  dependencies:
+    passport-oauth "^1.0.0"
+    passport-oauth2 "^1.5.0"
+    request "^2.88.0"
+
 passport-google-oauth2@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/passport-google-oauth2/-/passport-google-oauth2-0.2.0.tgz#fc9ea59e7091f02e24fd16d6be9257ea982ebbc3"
@@ -10139,7 +10148,7 @@ passport-oauth2@1.x.x, passport-oauth2@^1.1.2, passport-oauth2@^1.5.0:
     uid2 "0.0.x"
     utils-merge "1.x.x"
 
-passport-oauth@1.0.x:
+passport-oauth@1.0.x, passport-oauth@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/passport-oauth/-/passport-oauth-1.0.0.tgz#90aff63387540f02089af28cdad39ea7f80d77df"
   integrity sha1-kK/2M4dUDwIImvKM2tOep/gNd98=
@@ -11458,7 +11467,7 @@ request-promise-native@^1.0.8:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.88.2:
+request@^2.88.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
